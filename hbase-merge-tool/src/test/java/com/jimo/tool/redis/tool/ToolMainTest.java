@@ -1,8 +1,8 @@
-package com.jimo.tool;
+package com.jimo.tool.redis.tool;
 
 import com.beust.jcommander.JCommander;
-import com.jimo.tool.arg.CmdDelete;
-import com.jimo.tool.arg.CmdMerge;
+import com.jimo.tool.redis.tool.arg.CmdDelete;
+import com.jimo.tool.redis.tool.arg.CmdMerge;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

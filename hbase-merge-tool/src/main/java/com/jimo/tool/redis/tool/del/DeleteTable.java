@@ -1,4 +1,4 @@
-package com.jimo.tool.del;
+package com.jimo.tool.redis.tool.del;
 
 import org.apache.hadoop.hbase.client.HBaseAdmin;
 import org.slf4j.Logger;

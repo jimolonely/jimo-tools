@@ -1,4 +1,4 @@
-package com.jimo.tool.arg;
+package com.jimo.tool.redis.tool.arg;
 
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.Parameters;

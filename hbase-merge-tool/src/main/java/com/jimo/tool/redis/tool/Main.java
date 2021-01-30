@@ -1,6 +1,6 @@
-package com.jimo.tool;
+package com.jimo.tool.redis.tool;
 
-import com.jimo.tool.del.DeleteTable;
+import com.jimo.tool.redis.tool.del.DeleteTable;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.HRegionInfo;

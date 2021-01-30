@@ -1,4 +1,4 @@
-package com.jimo.tool;
+package com.jimo.tool.redis.tool;
 
 import org.apache.hadoop.hbase.HRegionInfo;
 import org.junit.jupiter.api.Test;

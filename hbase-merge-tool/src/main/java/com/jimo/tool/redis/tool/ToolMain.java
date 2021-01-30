@@ -1,7 +1,7 @@
-package com.jimo.tool;
+package com.jimo.tool.redis.tool;
 
 import com.beust.jcommander.JCommander;
-import com.jimo.tool.arg.CmdMerge;
+import com.jimo.tool.redis.tool.arg.CmdMerge;
 
 /**
  * @author jimo
