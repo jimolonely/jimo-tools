@@ -1,0 +1,10 @@
+*/target/*
+**/.idea/**
+*/out/*
+.idea
+
+**/.gradle
+
+**/gradle
+
+logs
