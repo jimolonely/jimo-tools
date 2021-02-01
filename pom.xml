@@ -10,12 +10,24 @@
     <packaging>pom</packaging>
 
     <properties>
+        <junit.version>4.13</junit.version>
     </properties>
 
     <modules>
         <module>hbase-merge-tool</module>
         <module>redis-tool</module>
+        <module>io-tool</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>

@@ -1,0 +1,35 @@
+<configuration>
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://my-cluster</value>
+        <final>true</final>
+    </property>
+    <property>
+        <name>dfs.nameservices</name>
+        <value>my-cluster</value>
+    </property>
+    <property>
+        <name>dfs.ha.namenodes.my-cluster</name>
+        <value>nn1,nn2</value>
+    </property>
+    <property>
+        <name>dfs.namenode.rpc-address.my-cluster.nn1</name>
+        <value>ops-test-hadoop01:8020</value>
+    </property>
+    <property>
+        <name>dfs.namenode.rpc-address.my-cluster.nn2</name>
+        <value>ops-test-hadoop02:8020</value>
+    </property>
+    <property>
+        <name>dfs.client.use.datanode.hostname</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>dfs.datanode.use.datanode.hostname</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>dfs.client.failover.proxy.provider.my-cluster</name>
+        <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
+    </property>
+</configuration>
